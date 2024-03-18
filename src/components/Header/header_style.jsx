@@ -12,11 +12,11 @@ export const GlobalStyle = createGlobalStyle`
 export const Header = styled.header`
     display: flex;
     justify-content: space-between;
-    height: 10vh;
-    padding: 1em;
+    height: 5vh;
+    margin: 1em 2em;
 
     img {
-        width: 8vw;
+        width: auto;
     }
 
     section {

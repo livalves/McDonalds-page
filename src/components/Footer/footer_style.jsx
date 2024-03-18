@@ -4,7 +4,7 @@ export const Footer = styled.footer`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em;
+    margin: 1em 2em;
 
     .info {
         display: flex;

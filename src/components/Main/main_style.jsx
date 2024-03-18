@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Section = styled.section`
+export const Section_prin = styled.section`
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
@@ -11,7 +11,7 @@ export const Section = styled.section`
     div {
         display: flex;
         align-items: center;
-        gap: 3em;
+        gap: 8em;
     }
 
     .banner {
@@ -23,6 +23,7 @@ export const Section = styled.section`
         flex-direction: column;
         justify-content: center;
         color: #FFFFFF;
+        font-size: 2rem;
     }
 
     span{
@@ -49,16 +50,63 @@ export const Section = styled.section`
     }
 `;
 
+export const Section_pro = styled.section`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #feb706;
+    padding: 3%;
+    gap: 2em;
+    
+    .title{
+        color: #fff;
+    }
+
+    div{
+        display: flex;
+        justify-content: center;
+        gap: 0 2em;
+    }
+`;
+
 export const Card = styled.div`
-    border: solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     width: 20vw;
-    border-radius: 7px;
+
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 0 0 8px 8px;
+        height: 25vh;
+    }
 
     img {
         width: 100%;
     }
 
-    h2{
-        border: #463f3f solid 2px;
+    p{
+        padding: 3%;
+        font-weight: bold;
+        height: 10vh;
+        width: 16vw;
+    }
+
+    button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #FFBC0D;
+        border: none;
+        border-radius: 7px;
+        font-size: 1rem;
+        width: 10vw;
+        padding: 5%;
+        cursor: pointer;
     }
 `;

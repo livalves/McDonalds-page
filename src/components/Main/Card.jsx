@@ -4,8 +4,10 @@ export default function Card({banner, enunciado}) {
     return (
         <S.Card>
             <img src={banner} alt="Banner sobre a promoção" />
-            <h2 className="enunciado">{enunciado}</h2>
-            <button>Clique aqui</button>
+            <div>
+                <p className="enunciado">{enunciado}</p>
+                <button> Clique aqui </button>
+            </div>
         </S.Card>
     );
 }
