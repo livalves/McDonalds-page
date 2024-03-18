@@ -11,11 +11,18 @@ export const Section_prin = styled.section`
     div {
         display: flex;
         align-items: center;
-        gap: 8em;
+        gap: 7em;
+    }
+
+    .img_banner{
+        display: flex;
+        justify-content: center;
+        height: 35vh;
     }
 
     .banner {
         width: 20vw;
+        height: 100%;
     }
 
     label{
